@@ -1,0 +1,28 @@
+name: dt-mpr-channel
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - gym
+  - ipykernel
+  - more-itertools
+  - numpy
+  - matplotlib
+  - stable-baselines3
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.6
+  - pillow
+  - pyglet
+  - click
+  - pandas
+  - seaborn
+  - scipy
+  - plotly
+  - pip
+  - pip:
+      - -e \.
+prefix: C:\Users\k21139912\AppData\Local\Miniconda3\envs\dt-mpr-channel
